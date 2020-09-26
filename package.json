@@ -19,7 +19,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "author": "Krist\u00f3f-Attila Kov\u00e1cs",
+    "author": "Kristóf-Attila Kovács",
     "name": "ts-rgba",
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
