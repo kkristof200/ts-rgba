@@ -24,9 +24,15 @@ export class RGBA {
 
         return new RGBA(r, g, b, a)
     }
+
     sum(rgba: RGBA, a: number = 255) {
         return new RGBA(this.r + rgba.r, this.g + rgba.g, this.b + rgba.b, a)
     }
+
+    mix(rgba: RGBA, a: number = 255) {
+        return new RGBA((this.r + rgba.r)/2, (this.g + rgba.g)/2, (this.b + rgba.b)/2, a)
+    }
+
     divide(div: number, a: number = null) {
         return this.multiply(1 / div, a)
     }
