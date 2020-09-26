@@ -9,3 +9,9 @@ rgba utils written in typescript
 ```bash
 npm i ts-rgba
 ```
+
+## Usage
+
+```typescript
+import { RGBA } 
+```
